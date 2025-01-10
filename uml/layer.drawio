@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.4">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
-    <mxGraphModel dx="2550" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,8 +177,8 @@
             <mxPoint x="-60" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--80" value="为什么周五搞了半天，最后设置了opacity才生效（很复杂，是层叠上下文的事情，和节点的父子关系无关；而事件链是无脑的认父子节点关系，和肉眼可见的层叠没有关系）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="460" width="242.5" height="80" as="geometry" />
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--80" value="&lt;div&gt;为什么周五搞了半天，最后设置了opacity才生效（很复杂，是层叠顺序的事情，和节点的父子关系无关；而事件链是无脑的认父子节点关系，和肉眼可见的层叠顺序没有关系）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;然后层叠顺序不仅仅是z-index的事情，z-index只有在同一个层叠上下文才有意义&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="430" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xNNs9g-YdDfOZQ5uP7P--82" target="xNNs9g-YdDfOZQ5uP7P--79" edge="1">
           <mxGeometry relative="1" as="geometry" />

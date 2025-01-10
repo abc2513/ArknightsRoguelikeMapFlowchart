@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.4">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
-    <mxGraphModel dx="3088" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,8 +204,8 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--98" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xNNs9g-YdDfOZQ5uP7P--97" target="xNNs9g-YdDfOZQ5uP7P--82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--97" value="map这个原生组件最后还是转化成canvas插入dom了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-997" y="530" width="170" height="70" as="geometry" />
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--97" value="map这个原生组件最后还是转化成canvas插入dom了，盲猜是加入一个透明节点用于接收事件或者canvas复制渲染Native内容" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="620" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--107" value="其实……不需要加container，直接绑定到page上都可以（但是如果摸到了page里的其他控件也会被触发）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-440" y="790" width="350" height="40" as="geometry" />
@@ -216,7 +216,7 @@
             <mxPoint x="-260" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--128" value="话说不支持同层渲染的情况需要在控制台里看一下怎么实现的，按理来说是最高层？那按钮等控件是怎么显示在更高层的。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--128" value="话说不支持同层渲染的情况需要在控制台里看一下怎么实现的，按理来说是最高层？那按钮等控件是怎么显示在更高层的，是不是小程序作为一个Native组件z-index：0？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-380" y="905" width="260" height="75" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--90" value="" style="group" parent="1" vertex="1" connectable="0">

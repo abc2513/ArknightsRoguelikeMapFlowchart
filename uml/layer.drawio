@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.4">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
-    <mxGraphModel dx="2643" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,6 +397,9 @@
         </mxCell>
         <mxCell id="GyBSC9jFxNs4gC6KFQF7-51" value="&lt;div&gt;事件的直接作用对象target只有一个，把所有元素都设上背景颜色，那么所见即所点。而所见，是根据层叠顺序决定的。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;而事件监听函数回调，在整个事件链每个节点都会触发的，除非事件链被某个函数调用api断掉了。&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="270" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GyBSC9jFxNs4gC6KFQF7-53" value="zindex：auto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="22" y="190" width="78" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

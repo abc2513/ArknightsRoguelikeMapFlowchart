@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2025-01-10T14:15:40.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="pJi8um0WdU2sqYFM5LYu" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2025-01-10T14:19:50.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="BIyRPhOzTm-Ocjt4Gdjd" version="24.3.1" type="github">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
     <mxGraphModel dx="3088" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,11 +223,26 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--96" value="绑定的事件处理函数默认在这里触发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
           <mxGeometry x="700" y="70" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--102" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="480" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--104" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="590" y="125" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--103" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="540" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--105" value="事件捕获阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="480" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--106" value="事件冒泡阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="730" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--80" target="xNNs9g-YdDfOZQ5uP7P--78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--80" value="为什么周五搞了半天，最后设置了opacity才生效（很复杂，是hitTest的事情）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="520" width="230" height="50" as="geometry" />
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--80" value="为什么周五搞了半天，最后设置了opacity才生效（很复杂，是hitTest的事情，有点超出我的认知）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-595" y="490" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--82" target="xNNs9g-YdDfOZQ5uP7P--79">
           <mxGeometry relative="1" as="geometry" />

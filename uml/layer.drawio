@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2025-01-10T14:09:57.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="XA61VXnc88joIpeYahwc" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2025-01-10T14:15:40.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="pJi8um0WdU2sqYFM5LYu" version="24.3.1" type="github">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
-    <mxGraphModel dx="2261" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,14 +13,8 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="160" y="335" width="266" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--6" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="160" y="220" width="266" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--7" value="MapLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="360" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="570" y="220" width="266" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -28,14 +22,8 @@
             <mxPoint x="160" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--12" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="220" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--14" value="Page由于子元素设置了absolute/fixed定位而发生尺寸坍缩，坍缩到了唯一没有设置absolute/fixed的头部信息栏" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--16" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=30;" vertex="1" parent="1">
-          <mxGeometry x="625.86" y="237.5" width="154.29" height="45" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--21" value="&lt;div&gt;PageLayer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="485" y="237.5" width="70" height="30" as="geometry" />
@@ -46,23 +34,11 @@
             <mxPoint x="702.5" y="267.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--23" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="266" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--24" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="1">
-          <mxGeometry x="330" y="120" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--13" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="50" as="sourcePoint" />
             <mxPoint x="310" y="380" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--25" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="570" y="110" width="266" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--26" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="1">
-          <mxGeometry x="730" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--27" value="MapLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="495" y="360" width="60" height="30" as="geometry" />
@@ -93,12 +69,6 @@
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--41" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="1">
           <mxGeometry x="934" y="120" width="266" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--31" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="929" y="304.38" width="266" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--30" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="1">
-          <mxGeometry x="1079" y="304.38" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="890" width="370" height="60" as="geometry" />
@@ -244,17 +214,92 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--79" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="660" width="1910" height="730" as="geometry" />
         </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--85" value="hitTest决定的事件接受者" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="200" y="125" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--86" value="根DOM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="230" y="245" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--96" value="绑定的事件处理函数默认在这里触发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry x="700" y="70" width="110" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--80" target="xNNs9g-YdDfOZQ5uP7P--78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--80" value="为什么周五搞了半天，最后设置了opacity才生效（很复杂，是hitTest的事情）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="620" width="230" height="50" as="geometry" />
+          <mxGeometry x="-580" y="520" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--82" target="xNNs9g-YdDfOZQ5uP7P--79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--82" target="xNNs9g-YdDfOZQ5uP7P--80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--82" value="为什么能够触发两个事件处理器（很简单，web的常识）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="515" width="180" height="70" as="geometry" />
+          <mxGeometry x="-570" y="620" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--87" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--85" target="xNNs9g-YdDfOZQ5uP7P--44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="940" as="sourcePoint" />
+            <mxPoint x="100" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--88" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--86" target="xNNs9g-YdDfOZQ5uP7P--42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1110" as="sourcePoint" />
+            <mxPoint x="250" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--89" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="220" width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--6" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--89">
+          <mxGeometry width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--12" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--89">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--90" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="120" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--23" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--90">
+          <mxGeometry width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--24" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--90">
+          <mxGeometry x="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="110" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--25" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--91">
+          <mxGeometry width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--26" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--91">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--92" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="220" width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--92">
+          <mxGeometry width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--16" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=30;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--92">
+          <mxGeometry x="55.860000000000014" y="17.5" width="154.29" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--94" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="929" y="304.38" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--31" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;dashed=1;dashPattern=8 8;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--94">
+          <mxGeometry width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--30" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--94">
+          <mxGeometry x="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--98" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--97" target="xNNs9g-YdDfOZQ5uP7P--82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--97" value="目前的原生组件最后在DOM中还是有一席之地的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="610" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

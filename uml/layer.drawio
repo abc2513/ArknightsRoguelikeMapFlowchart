@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2025-01-10T14:03:16.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="pn0n_PLSgGVnswbMtHGr" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2025-01-10T14:09:57.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="XA61VXnc88joIpeYahwc" version="24.3.1" type="github">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
-    <mxGraphModel dx="1434" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,16 +22,10 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="570" y="220" width="266" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--9" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="1">
-          <mxGeometry x="160" y="460" width="266" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--10" value="手机屏幕大小对照" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="480" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--23" target="xNNs9g-YdDfOZQ5uP7P--9">
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="200" as="sourcePoint" />
-            <mxPoint x="160" y="420" as="targetPoint" />
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--12" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -44,7 +38,7 @@
           <mxGeometry x="625.86" y="237.5" width="154.29" height="45" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--21" value="&lt;div&gt;PageLayer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="237.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="485" y="237.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--22" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -79,11 +73,11 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--33" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="934" y="190" width="266" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--35" value="MapLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="50" width="60" height="30" as="geometry" />
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--35" value="ContainerLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--36" value="&lt;div&gt;为什么ContainerLayer能穿透而PageLayer不能？&lt;/div&gt;生效的是层叠上下文还是图层？=》试试看层叠上下文的方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="120" width="380" height="60" as="geometry" />
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--36" value="&lt;div&gt;为什么ContainerLayer能穿透而PageLayer不能？=》猜测是因为ContianerLayer里什么都没有，而被撑开的PageLayer里有很多其他元素。&lt;/div&gt;生效的是层叠上下文还是图层？=》试试看层叠上下文的方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="120" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--38" value="屏幕的X,Y被点击了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="247" y="-10" width="167" height="40" as="geometry" />
@@ -93,8 +87,8 @@
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="426" y="130" as="sourcePoint" />
-            <mxPoint x="426" y="470" as="targetPoint" />
+            <mxPoint x="426" y="105" as="sourcePoint" />
+            <mxPoint x="426" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--41" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=56;" vertex="1" parent="1">
@@ -204,6 +198,63 @@
             <mxPoint x="1066.5" y="27.5" as="sourcePoint" />
             <mxPoint x="1067.5" y="237.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--67" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="120" as="sourcePoint" />
+            <mxPoint x="570" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--68" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="836" y="90" as="sourcePoint" />
+            <mxPoint x="836" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--69" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="932.8199999999999" y="105" as="sourcePoint" />
+            <mxPoint x="932.8199999999999" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--70" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="82.5" as="sourcePoint" />
+            <mxPoint x="1200" y="422.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--71" value="elseLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="145" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--72" value="elseLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--73" value="elseLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="329.38" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--74" value="&lt;div&gt;PageLayer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="400" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--77" value="MapLayer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--78" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-170" width="1910" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--79" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="660" width="1910" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--80" target="xNNs9g-YdDfOZQ5uP7P--78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--80" value="为什么周五搞了半天，最后设置了opacity才生效（很复杂，是hitTest的事情）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="620" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNNs9g-YdDfOZQ5uP7P--82" target="xNNs9g-YdDfOZQ5uP7P--79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--82" value="为什么能够触发两个事件处理器（很简单，web的常识）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="515" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

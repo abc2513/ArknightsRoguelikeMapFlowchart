@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2025-01-10T14:22:00.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="eugw7-QMtBQyFQFhtabl" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2025-01-10T14:26:03.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" etag="fwsis9m4lw4LwYQGEMSf" version="24.3.1" type="github">
   <diagram name="第 1 页" id="dHkBDI9f2J-48Ag7LJ06">
-    <mxGraphModel dx="3088" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2801" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,12 +27,6 @@
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--21" value="&lt;div&gt;PageLayer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="485" y="237.5" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xNNs9g-YdDfOZQ5uP7P--22" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="702.5" y="47.5" as="sourcePoint" />
-            <mxPoint x="702.5" y="267.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--13" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -211,6 +205,18 @@
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--78" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="-170" width="1910" height="730" as="geometry" />
         </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--109" value="原来的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--78">
+          <mxGeometry x="300" y="650" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--110" value="通过新建层叠上下文使得container生效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--78">
+          <mxGeometry x="1000" y="650" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--111" value="加了container但是不生效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--78">
+          <mxGeometry x="650" y="650" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--112" value="加了没有大小的container的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNNs9g-YdDfOZQ5uP7P--78">
+          <mxGeometry x="250" y="680" width="200" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="xNNs9g-YdDfOZQ5uP7P--79" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="660" width="1910" height="730" as="geometry" />
         </mxCell>
@@ -323,6 +329,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-310" y="910" as="sourcePoint" />
             <mxPoint x="-260" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNNs9g-YdDfOZQ5uP7P--22" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="702.5" y="47.5" as="sourcePoint" />
+            <mxPoint x="702.5" y="267.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

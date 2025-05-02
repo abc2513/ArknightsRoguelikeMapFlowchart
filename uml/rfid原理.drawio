@@ -1,9 +1,83 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.15">
   <diagram name="第 1 页" id="5AJq7UbWgciV34pufoeA">
-    <mxGraphModel>
+    <mxGraphModel dx="951" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-1" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="178.5" width="116" height="86.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="hxLXuQMOmzxcQQWcHnEh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="220" as="sourcePoint" />
+            <mxPoint x="500" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.hq_enterprise;" vertex="1" parent="1">
+          <mxGeometry x="330" y="178.5" width="92" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-4" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;" vertex="1" parent="1">
+          <mxGeometry x="700" y="186.75" width="53.2" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="210" as="sourcePoint" />
+            <mxPoint x="690" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-13" value="扫描" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hxLXuQMOmzxcQQWcHnEh-12">
+          <mxGeometry x="-0.1014" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-5" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.satellite_dish;network2IconXOffset=-0.0067;network2IconYOffset=0.0022;network2IconW=1.0065;network2IconH=0.9957;" vertex="1" parent="1">
+          <mxGeometry x="490" y="186.75" width="70.76" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="245" as="sourcePoint" />
+            <mxPoint x="570" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-15" value="数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hxLXuQMOmzxcQQWcHnEh-14">
+          <mxGeometry x="-0.0202" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-16" value="天线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500.38" y="280" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-21" value="计算机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-22" value="RFID 读写器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-23" value="RFID 标签" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="209.67" as="sourcePoint" />
+            <mxPoint x="330" y="209.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-27" value="指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hxLXuQMOmzxcQQWcHnEh-26">
+          <mxGeometry x="-0.1014" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="244.67" as="sourcePoint" />
+            <mxPoint x="210" y="244.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxLXuQMOmzxcQQWcHnEh-29" value="数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hxLXuQMOmzxcQQWcHnEh-28">
+          <mxGeometry x="-0.0202" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
